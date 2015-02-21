@@ -1,0 +1,1296 @@
+<service>
+  <responsecode>0</responsecode>
+  <timestamp>2/21/2015 1:33:01 PM</timestamp>
+  <subway>
+    <line>
+      <name>123</name>
+      <status>DELAYS</status>
+      <text>
+                    <span class="TitleDelay">Delays</span>
+                    <span class="DateStyle">
+                     Posted: 02/21/2015  1:24PM
+                    </span>
+                  Following an earlier incident at<STRONG> 219 St,</STRONG> [2] train service has resumed with residual delays.
+                
+              
+                    <span class="TitleDelay">Delays</span>
+                    <span class="DateStyle">
+                     Posted: 02/21/2015 12:04PM
+                    </span>
+                  <P>Due to signal problems at <STRONG>215 St</STRONG>, southbound [1] trains are running with delays. </P>
+<P>Allow additional travel time.</P>
+                
+              </text>
+      <Date>02/21/2015</Date>
+      <Time> 1:24PM</Time>
+    </line>
+    <line>
+      <name>456</name>
+      <status>PLANNED WORK</status>
+      <text>
+                    <span class="TitlePlannedWork" >Planned Work</span>
+                    
+                  <a class="plannedWorkDetailLink" onclick=ShowHide(88837);>
+<b>[6] Brooklyn Bridge-bound trains run express from Parkchester to Hunts Point Av
+</a><div id= 88837 class="plannedWorkDetail" ></b>Weekends, 6:45 AM Sat to 7 PM Sun, until Mar 1
+
+For service <i>to</i> St Lawrence Av, Morrison Av-Soundview, Elder and Whitlock Avs,
+take the [6] to Hunts Point Av and transfer to a Pelham Bay Park-bound [6].
+
+For service <i>from </i>these stations, take the [6] to Parkchester and transfer to a
+Brooklyn Bridge-bound [6].
+<b>
+</div></b>
+                
+              
+                    <span class="TitlePlannedWork" >Planned Work</span>
+                    
+                  <a class="plannedWorkDetailLink" onclick=ShowHide(89879);>
+<b>[5] No trains between Grand Central-42 St and Bowling Green
+</a><div id= 89879 class="plannedWorkDetail" ></font>[4] [6] and [R] trains provide alternate service
+</b><a href=http://advisory.mtanyct.info/pdf_files/ServiceGuide.pdf target=_blank><font color=#0000FF><b><u>Weekend</u></b></font></a>, </font>Saturday <i>and </i>Sunday, Feb 21 - 22
+
+[5] service operates <i>every 20 minutes </i>between <b>Dyre Av</b> and <b>Grand Central-42 St</b>.
+  &#149;  Downtown trains make local stops from <b>125 St</b> to <b>Grand Central-42 St</b>.
+
+<table class=plannedworkTableStyle  width=80%><tr><td><font size=3><b>Travel Alternatives</b></font><td align=right>[TP]</table>
+
+For <b>14 St-Union Sq</b> and <b>Brooklyn Bridge</b>, take the [4] [6].
+
+For <b>Fulton St</b>, <b>Wall St</b> and <b>Bowling Green</b>, use nearby [R] stations at
+<b>Cortlandt St</b>, <b>Rector St</b> and <b>Whitehall St</b>.
+
+&#149; Transfer between [5] and [R] trains at 59 St.
+&#149; Transfer between [5] and [4] [6] trains at Grand Central-42 St.
+&#149; Transfer between [4] [6] and [R] trains at Canal St.
+
+<b>Note:</b> No [4] service between Brooklyn Bridge and New Lots Av.
+
+</font><table class=plannedworkTableStyle  border=1 cellspacing=1 cellpadding=5 rules=none frame=box><td>  [ad]  <td><font size=1>This service change affects one or more ADA accessible stations. Please call 511 for help with planningyour trip. If you are deaf or hard of hearing, use your preferred relay service provider or the free 711 relay.  </font></table>
+<b>
+</div></b>
+                
+              
+                    <span class="TitlePlannedWork" >Planned Work</span>
+                    
+                  <a class="plannedWorkDetailLink" onclick=ShowHide(89877);>
+<b>[4] No trains between Brooklyn Bridge and New Lots Av<br clear=left>[2] [3] [D] [N] [Q] [R] trains provide alternate service
+</a><div id= 89877 class="plannedWorkDetail" ></b>Weekends, 11:45 PM Fri to 5 AM Mon, Feb 20 - 23</font>  &#149;  Feb 27 - Mar 2
+
+[4] service operates between <b>Woodlawn </b>and <b>Brooklyn Bridge</b>, <i>making local stops</i>.
+
+Late Night [3] service is extended to New Lots Av.
+
+<table class=plannedworkTableStyle  width=80%><tr><td><font size=3><b>Travel Alternatives</b></font><td align=right>[TP]</table>
+</font>For service between Manhattan and Brooklyn, take the [D] or [Q].
+
+For Lower Manhattan and Downtown Brooklyn, take the [2] [3] or [N] [R].
+
+For service between Borough Hall and Franklin Av, take the [2] [3].
+Take the [3] between Franklin Av and New Lots Av.
+
+</font><table class=plannedworkTableStyle  width=75% border=1 cellspacing=1 cellpadding=3 rules=rows frame=hsides><tr><td bgcolor=#FAF8CC><b>[4] Station</b><td bgcolor=#FAF8CC><b>Nearby [R] Station  </b><td bgcolor=#FAF8CC><b>Nearby [2] [3] Station</b><tr><td>Brooklyn Bridge    <td>City Hall<td>Park Place<tr><td>Fulton St [ad] <td>Cortlandt St [ad] <td>Fulton St [ad]<tr><td>Wall St<td>Rector St<td>Wall St<tr><td>Bowling Green [ad]<td>Whitehall St-South Ferry  [1]<td>  &mdash;<tr><td>Borough Hall<td>Court St orJay St-MetroTech  [ad]  [A] [C] [F] <td>Borough Hall  [ad]<tr><td>Nevins St<td>DeKalb Av  [ad]  [Q]<td>Nevins St</table>
+<table class=plannedworkTableStyle  width=75% cellpadding=3 rules=rows frame=hsides><tr bgcolor=000000><td colspan=2><font color=#FAF8CC><b>Key Transfer Stations</b></font><tr><td>Bleecker St/B'way-Lafayette St  [ad]<td>[4] and [D] [F]<tr><td>14 St-Union Sq  [ad]  <i>or</i> Canal St<td>[4] and [N] [Q] [R]<tr><td>Atlantic Av-Barclays Ctr  [ad]<td>[4] and [2] [3] [D] [N] [Q] [R]</table>
+</font><b>Note:</b> No Weekend</font> [5] service between Grand Central-42 St and Bowling Green.
+
+<b>Reminder:</b> <a href=http://advisory.mtanyct.info/pdf_files/NightMap.pdf target=_blank><font color=#0000FF><b><u>Late Night Service</u></b></font></a> at these [R] stations is provided by the [N].
+
+</font><table class=plannedworkTableStyle  border=1 cellspacing=1 cellpadding=5 rules=none frame=box><td>  [ad]  <td><font size=1>This service change affects one or more ADA accessible stations. Please call 511 for help with planningyour trip. If you are deaf or hard of hearing, use your preferred relay service provider or the free 711 relay.  </font></table>
+<b>
+</div></b>
+                
+              </text>
+      <Date>02/21/2015</Date>
+      <Time> 1:23PM</Time>
+    </line>
+    <line>
+      <name>7</name>
+      <status>GOOD SERVICE</status>
+      <text />
+      <Date></Date>
+      <Time></Time>
+    </line>
+    <line>
+      <name>ACE</name>
+      <status>SERVICE CHANGE</status>
+      <text>
+                    <span class="TitleServiceChange" >Service Change</span>
+                    <span class="DateStyle">
+                     Posted: 02/21/2015 12:24PM
+                    </span>
+                  <P>Due to aÂ rail conditionÂ at <STRONG>Cathedral Pkwy-110 St</STRONG>, northbound [A] and [D] trains are running local from <STRONG>59 St-Columbus Circle</STRONG>Â to <STRONG>125 St</STRONG>.Â  </P>
+<P>Expect delays on northbound [C] trains.</P>
+<P>Allow additional travel time.</P>
+                
+              
+                    <span class="TitleDelay">Delays</span>
+                    <span class="DateStyle">
+                     Posted: 02/21/2015 12:01PM
+                    </span>
+                  <P>Due to track maintenance between <STRONG>Jackson Hts-Roosevelt Av</STRONG>Â and <STRONG>Forest Hills-71 Av</STRONG>,Â [E], [F] and [R] trains are running with delays in both directions.</P>
+<P>Allow additional travel time.</P>
+                
+              
+                    <span class="TitlePlannedWork" >Planned Work</span>
+                    
+                  <a class="plannedWorkDetailLink" onclick=ShowHide(89897);>
+<b>[E] Jamaica Center-bound trains run local from Roosevelt Av to 71 Av
+</a><div id= 89897 class="plannedWorkDetail" ></b>Weekend, 12:01 AM Sat to 5 AM Mon, Feb 21 - 23
+
+Trains stop at Elmhurst, Grand Avs, Woodhaven Blvd, 63 Dr and 67 Av.
+
+&#149; Please allow additional travel time.
+<b>
+</div></b>
+                
+              
+                    <span class="TitlePlannedWork" >Planned Work</span>
+                    
+                  <a class="plannedWorkDetailLink" onclick=ShowHide(89894);>
+<b>[E] Jamaica Center-bound trains skip Spring St and 23 St
+</a><div id= 89894 class="plannedWorkDetail" ></b>Weekend, 11:45 PM Fri to 5 AM Mon, Feb 20 - 23
+
+For service <i>to </i>these stations, take the [E] to W 4 St or 34 St and transfer to a
+downtown [A] <i>local</i>, </font>[C] or [E].
+
+For service <i>from </i>these stations, take the [A] [C] or [E] to 14 St or Canal St
+and transfer to a Jamaica Center-bound [E].
+<b>
+</div></b>
+                
+              
+                    <span class="TitlePlannedWork" >Planned Work</span>
+                    
+                  <a class="plannedWorkDetailLink" onclick=ShowHide(90024);>
+<b>[C] 168 St-bound trains run via the [F] from Jay St-MetroTech to 34 St-Herald Sq, <br clear=left>then via the [D] to 59 St-Columbus Circle
+</a><div id= 90024 class="plannedWorkDetail" ></b></font><a href=http://advisory.mtanyct.info/pdf_files/ServiceGuide.pdf target=_blank><font color=#0000FF><b><u>Weekend</u></b></font></a>, Saturday <i>and </i>Sunday, Feb 21 - 22
+
+No 168 St-bound service at <b>High</b>, <b>Fulton</b>, <b>Chambers</b>, <b>Canal</b>, <b>Spring</b>, <b>14</b>, <b>23</b>, <b>34</b>, <b>42</b> and <b>50 Sts</b>.
+
+<font size=3><b>Travel Alternatives</b></font>
+
+For </font><b>High</b>, <b>Fulton</b>, <b>Chambers</b>, <b>Canal 14</b>,<b> 34</b>, and<b> 42 Sts</b>, take the [A] via transfer at 
+Jay St-MetroTech or 59 St-Columbus Circle.
+
+For service <i>to</i> <b>Spring St</b>, take the [C] to W 4 St and transfer to a downtown [C] or [E].
+
+For service <i>from</i> this station*, take the [C] or [E] to Canal St and transfer to an uptown [A] 
+to 59 St-Columbus Circle where [C] service is available.
+
+For service <i>to</i> <b>23 St</b>, take the [C] to the 7 Av [D] [E] Station and transfer to a downtown [E].
+
+For service <i>from</i> this station*, take the [C] or [E] to 14 St and transfer to an uptown [A] 
+to 59 St where [C] service is available.
+
+For <b>50 St</b>, take the [E]. Transfer between trains at W 4 St or 7 Av. 
+
+<i>*This detour has taken into account additional planned service changes.
+
+<b>Alternate travel note:
+</b></i>For 14, 23, 34, 42 and 50 Sts, use nearby [F] stations on 6 Av instead.
+<b>
+</div></b>
+                
+              
+                    <span class="TitlePlannedWork" >Planned Work</span>
+                    
+                  <a class="plannedWorkDetailLink" onclick=ShowHide(89985);>
+<b>[A] No trains between Rockaway Blvd and Lefferts Blvd<br clear=left>[A] Howard Beach/Far Rockaway-bound trains skip 88 St 
+</a><div id= 89985 class="plannedWorkDetail" >[SB] Free shuttle buses provide alternate service
+</b>Weekend, 11:45 PM Fri to 5 AM Mon, Feb 20 - 23
+
+[A] service operates between </font><b>207 St</b> and <b>Howard Beach-JFK Airport/Mott Av</b>.
+
+[SB] buses make all stops between <b>80 St </b>and <b>Lefferts Blvd</b>.
+
+&#149; Transfer between trains and buses at 80 St.
+
+<font size=3><b><a style="cursor:pointer; text-decoration:underline;" onclick=ShowHide(899850);>Show Shuttle Bus Stops</a></b></font><div id="899850"; style="display:none;"><table class=plannedworkTableStyle  border=1 cellspacing=1 cellpadding=3 rules=rows frame=hsides><tr bgcolor=FAF8CC><td></font><b>Station</b><td><b>Shuttle Bus Stop</b><tr><td>80 St  [A]<td>Liberty Av at 80 St</font><tr><td>88 St  [A] <i>(Inwood-bound only)</i><td>Liberty Av at 88 St<tr><td rowspan=2>Rockaway Blvd          [A] <i>(Inwood-bound only)</i><td>93 St at Liberty Av (to Lefferts Blvd)<tr><td>Liberty Av at 93 St (to 80 St)<tr><td>104 St<td>Liberty Av at 104 St<tr><td>111 St<td>Liberty Av at 111 St<tr><td>Lefferts Blvd<td>Lefferts Blvd at Liberty Av</table></div>
+</font><b>Note:</b> The Ozone Park/Far Rockaway-bound platform at Rockaway Blvd is closed for renovation. 
+
+<b><i>Alternate travel note:
+</b></i>For service <i>to</i> 88 St and Rockaway Blvd, take the [A] to Aqueduct-North Conduit Av
+and transfer to an Inwood-bound [A].
+</font>For service toward the Rockaways <i>from </i>these stations, take the [A] to 80 St
+and transfer to a Howard Beach/Far Rockaway-bound [A].
+<b>
+</div></b>
+                
+              </text>
+      <Date>02/21/2015</Date>
+      <Time>12:24PM</Time>
+    </line>
+    <line>
+      <name>BDFM</name>
+      <status>DELAYS</status>
+      <text>
+                    <span class="TitleDelay">Delays</span>
+                    <span class="DateStyle">
+                     Posted: 02/21/2015  1:22PM
+                    </span>
+                  Following an earlier incident at <STRONG>4 Av-9 St</STRONG>, [F] train service has resumed with residual delays.
+                
+              
+                    <span class="TitleServiceChange" >Service Change</span>
+                    <span class="DateStyle">
+                     Posted: 02/21/2015 12:24PM
+                    </span>
+                  <P>Due to aÂ rail conditionÂ at <STRONG>Cathedral Pkwy-110 St</STRONG>, northbound [A] and [D] trains are running local from <STRONG>59 St-Columbus Circle</STRONG>Â to <STRONG>125 St</STRONG>.Â  </P>
+<P>Expect delays on northbound [C] trains.</P>
+<P>Allow additional travel time.</P>
+                
+              
+                    <span class="TitleDelay">Delays</span>
+                    <span class="DateStyle">
+                     Posted: 02/21/2015 12:02PM
+                    </span>
+                  <P>Due to signal problems at <STRONG>36 St</STRONG>, northbound [D] trains are running with delays. </P>
+<P>Allow additional travel time.</P>
+                
+              
+                    <span class="TitleDelay">Delays</span>
+                    <span class="DateStyle">
+                     Posted: 02/21/2015 12:01PM
+                    </span>
+                  <P>Due to track maintenance between <STRONG>Jackson Hts-Roosevelt Av</STRONG>Â and <STRONG>Forest Hills-71 Av</STRONG>,Â [E], [F] and [R] trains are running with delays in both directions.</P>
+<P>Allow additional travel time.</P>
+                
+              
+                    <span class="TitlePlannedWork" >Planned Work</span>
+                    
+                  <a class="plannedWorkDetailLink" onclick=ShowHide(89950);>
+<b>[F] Jamaica-bound trains run local from Roosevelt Av to 71 Av
+</a><div id= 89950 class="plannedWorkDetail" ></b>Weekend, 12:01 AM Sat to 5 AM Mon, </font>Feb 21 - 23
+
+Trains stop at Elmhurst, Grand Avs, Woodhaven Blvd, 63 Dr and 67 Av.
+
+&#149; Please allow additional travel time.
+<b>
+</div></b>
+                
+              
+                    <span class="TitlePlannedWork" >Planned Work</span>
+                    
+                  <a class="plannedWorkDetailLink" onclick=ShowHide(89954);>
+<b>[F] Coney Island-bound trains run express from Smith-9 Sts to Avenue X
+</a><div id= 89954 class="plannedWorkDetail" ></b>Weekend, 11:45 PM Fri to 8 PM Sun, Feb 20 - 22
+
+No Coney Island-bound service at <b>4 Av-9 St</b>, <b>15 St-Prospect Park</b>, <b>Fort Hamilton Pkwy</b>, 
+<b>Ditmas Av</b>, <b>Avenue I</b>, <b>Bay Pkwy</b>, <b>Avenue N</b>, <b>Avenue P</b> and <b>Avenue U</b>.
+
+<font size=3><b>Travel Alternatives</b></font>
+
+For 4 Av-9 St, 15 St-Prospect Park and Fort Hamilton Pkwy, take the [G] instead. 
+Transfer between trains at Smith-9 Sts, 7 Av or Church Av.
+
+For service <i>to </i>Ditmas Av, Avenue I, Bay Pkwy, Avenue N, Avenue P and Avenue U, 
+take the [F] to 18 Av, Kings Hwy or Avenue X and transfer to a Jamaica-bound [F].
+
+For service <i>from </i>these stations, take the [F] to Kings Hwy, 18 Av or Church Av 
+and transfer to a Coney Island-bound [F].
+</font><b>
+</div></b>
+                
+              
+                    <span class="TitlePlannedWork" >Planned Work</span>
+                    
+                  <a class="plannedWorkDetailLink" onclick=ShowHide(89955);>
+<b>[D] No trains between Bay Pkwy and Stillwell Av
+</a><div id= 89955 class="plannedWorkDetail" >B1, B64 and B82 buses provide alternate service
+</b></font>Weekend, 5:30 AM to 8 PM, Sat <i>and</i> Sun, Feb 21 - 22
+
+[D] service operates between <b>205 St</b> and <b>Bay Pkwy</b>.
+
+For direct service between Stillwell Av and Manhattan/Downtown Brooklyn, take the [F] or [Q].
+
+<table class=plannedworkTableStyle  width=85%><tr><td><font size=3><b>Travel Alternatives</b></font><td align=right>[TP]</table><table class=plannedworkTableStyle  width=85% border=1 cellspacing=1 cellpadding=3 rules=rows frame=hsides><tr bgcolor=FAF8CC><td><b>Affected Station</b><td><b>Alternate Station/Service</b><tr><td>Bay Pkwy  [ad]<td>[D], <a href=http://web.mta.info/nyct/bus/schedule/bkln/b001cur.pdf target=_blank><font color=#0000FF><b><u>B1</u></b></font></a> and <a href= http://web.mta.info/nyct/bus/schedule/bkln/b082cur.pdf target=_blank><font color=#0000FF><b><u>B82</u></b></font></a> <tr><td>25 Av<td><a href=http://web.mta.info/nyct/bus/schedule/bkln/b001cur.pdf target=_blank><font color=#0000FF><b><u>B1</u></b></font></a><tr><td>Bay 50 St<td><a href= http://web.mta.info/nyct/bus/schedule/bkln/b064cur.pdf target=_blank><font color=#0000FF><b><u>B64</u></b></font></a>, [N] at <a href=http://web.mta.info/weekender/tileMap.html?staID=10176 target=_blank><font color=#0000FF><b><u>nearby 86 St</u></b></font></a>  <font size=2><i>(to/from</i> Manhattan)</font><tr><td>Stillwell Av<td>[ad]  [F] [Q], </a> <a href= http://web.mta.info/nyct/bus/schedule/bkln/b082cur.pdf target=_blank><font color=#0000FF><b><u>B82</u></b></font></a> and <a href= http://web.mta.info/nyct/bus/schedule/bkln/b064cur.pdf target=_blank><font color=#0000FF><b><u>B64</u></b></font></a><tr></table><table class=plannedworkTableStyle  width=85% border=1 cellspacing=1 cellpadding=3 rules=rows frame=hsides><tr bgcolor=FAF8CC><td colspan=2><b>Key Transfer Stations</b><tr><td>Bay Pkwy  [ad]<td>[D], <a href=http://web.mta.info/nyct/bus/schedule/bkln/b001cur.pdf target=_blank><font color=#0000FF><b><u>B1</u></b></font></a> and <a href= http://web.mta.info/nyct/bus/schedule/bkln/b082cur.pdf target=_blank><font color=#0000FF><b><u>B82</u></b></font></a><tr><td>Avenue X<td>[F] and <a href=http://web.mta.info/nyct/bus/schedule/bkln/b001cur.pdf target=_blank><font color=#0000FF><b><u>B1</u></b></font></a><tr><td>Stillwell Av [ad]<td>[F] [Q], <a href= http://web.mta.info/nyct/bus/schedule/bkln/b064cur.pdf target=_blank><font color=#0000FF><b><u>B64</u></b></font></a> and <a href= http://web.mta.info/nyct/bus/schedule/bkln/b082cur.pdf target=_blank><font color=#0000FF><b><u>B82</u></b></font></a><tr></table>
+</font><b>Note:</b> No [N] service between 86 St and Stillwell Av during this time.
+</font><b>
+</div></b>
+                
+              </text>
+      <Date>02/21/2015</Date>
+      <Time> 1:22PM</Time>
+    </line>
+    <line>
+      <name>G</name>
+      <status>GOOD SERVICE</status>
+      <text />
+      <Date></Date>
+      <Time></Time>
+    </line>
+    <line>
+      <name>JZ</name>
+      <status>GOOD SERVICE</status>
+      <text />
+      <Date></Date>
+      <Time></Time>
+    </line>
+    <line>
+      <name>L</name>
+      <status>PLANNED WORK</status>
+      <text>
+                    <span class="TitlePlannedWork" >Planned Work</span>
+                    
+                  <a class="plannedWorkDetailLink" onclick=ShowHide(87794);>
+<b>[L] No trains between 14 St-Union Sq and 8 Av
+</a><div id= 87794 class="plannedWorkDetail" >M14 buses provide alternate service
+</b>Weekends, 11:45 PM Fri to 5 AM Mon, until Feb 23 
+
+</font><b>[L]</b> service operates between <b>Rockaway Pkwy</b> and <b>14 St-Union Sq</b>.
+
+<b>M14</b> buses make all <b>[L]</b> stops between <b>14 St-Union Sq</b> and <b>8 Av</b>.
+
+&#149; Transfer between <b>[L]</b> trains and <b>M14</b> buses at <b>14 St-Union Sq</b>.
+&#149; Use transfer ticket for connections between <b>M14</b> buses and <b>[A] [C]</b> trains
+  at<b> 8 Av-14 St</b> or <b>[F]</b> trains at <b>6 Av-14 St</b>.
+
+<b>Note:</b> Additional overnight <b>M14</b> bus service will be provided between 8 Av and 1 Av. 
+<b>
+</div></b>
+                
+              </text>
+      <Date>02/21/2015</Date>
+      <Time> 1:23PM</Time>
+    </line>
+    <line>
+      <name>NQR</name>
+      <status>DELAYS</status>
+      <text>
+                    <span class="TitleDelay">Delays</span>
+                    <span class="DateStyle">
+                     Posted: 02/21/2015 12:01PM
+                    </span>
+                  <P>Due to track maintenance between <STRONG>Jackson Hts-Roosevelt Av</STRONG>Â and <STRONG>Forest Hills-71 Av</STRONG>,Â [E], [F] and [R] trains are running with delays in both directions.</P>
+<P>Allow additional travel time.</P>
+                
+              
+                    <span class="TitlePlannedWork" >Planned Work</span>
+                    
+                  <a class="plannedWorkDetailLink" onclick=ShowHide(89952);>
+<b>[R] Bay Ridge-bound trains run express from 71 Av to Queens Plaza
+</a><div id= 89952 class="plannedWorkDetail" ></b><a href=http://advisory.mtanyct.info/pdf_files/ServiceGuide.pdf target=_blank><font color=#0000FF><b><u>Weekend</u></b></font></a>, Saturday <i>and</i> Sunday, Feb 21 - 22
+
+Trains stop at Roosevelt Av.
+
+For service <i>to </i>67 Av, 63 Dr, Woodhaven Blvd, Grand and Elmhurst Avs, take the <b>[R]</b> to Roosevelt Av and transfer to a Jamaica Center-bound <b>[E]</b>,<b> </b>Jamaica-bound <b>[F]*</b><i> </i>or Forest Hills-bound <b>[R]</b>.
+
+</font>For service <i>to</i> 65 St, Northern Blvd, 46, Steinway and 36 Sts, take the <b>[R]</b> to Queens Plaza 
+and transfer to a Jamaica Center-bound <b>[E]</b> <i>local </i>or </font>Forest Hills-bound <b>[R]</b>.
+
+For service <i>from </i>these stations, take the <b>[E] [F]* </b>or <b>[R]</b> to Roosevelt Av or 71 Av 
+and transfer to a Bay Ridge-bound <b>[R]</b>.
+
+<i>*This detour has taken into account additional planned service changes.
+
+<b>~</b> For late night travel at these stations, see <b>[E]</b> advisories.
+</i><b>
+</div></b>
+                
+              
+                    <span class="TitlePlannedWork" >Planned Work</span>
+                    
+                  <a class="plannedWorkDetailLink" onclick=ShowHide(89978);>
+<b>[Q] Coney Island-bound trains run express from Prospect Park to Kings Hwy
+</a><div id= 89978 class="plannedWorkDetail" ></b>Weekend, 11:15 PM Fri to 5 AM Mon, Feb 20 - 23
+
+Trains stop at Church Av and Newkirk Plaza.
+
+For service <i>to </i>Parkside Av, Beverley, Cortelyou Rds, Avenue H, Avenue J and Avenue M,
+take the [Q] to Church Av, Newkirk Plaza or Kings Hwy and transfer to a 57 St/7 Av-bound [Q].
+
+For service <i>from </i>these stations, take the [Q] to Newkirk Plaza, Church Av or Prospect Park
+and transfer to a Coney Island-bound [Q].
+
+<table class=plannedworkTableStyle  border=1 cellspacing=1 cellpadding=5 rules=none frame=box><td>  [ad]  <td><font size=1>This service change affects one or more ADA accessible stations. Please call 511 for help with planningyour trip. If you are deaf or hard of hearing, use your preferred relay service provider or the free 711 relay.  </font></table>
+<b>
+</div></b>
+                
+              
+                    <span class="TitlePlannedWork" >Planned Work</span>
+                    
+                  <a class="plannedWorkDetailLink" onclick=ShowHide(89958);>
+<b>[N] No trains between 86 St and Stillwell Av
+</a><div id= 89958 class="plannedWorkDetail" >[F] trains and B1/B4 buses provide alternate service
+</b>Weekend, 5:30 AM to 8 PM, Sat <i>and</i> Sun, Feb 21 - 22
+
+</font><b>[N]</b> service operates between <b>Ditmars Blvd</b> and <b>86 St</b>.
+
+For direct service between <b>Stillwell Av</b> and <b>Manhattan/Downtown Brooklyn</b>, take the [F] or [Q].
+
+<table class=plannedworkTableStyle  width=85%><tr><td><font size=3><b>Travel Alternatives</b></font><td align=right>[TP]</table>
+<a href=http://web.mta.info/nyct/bus/schedule/bkln/b001cur.pdf target=_blank><font color=#0000FF><b><u>B1</u></b></font></a> </font>and <a href=http://web.mta.info/nyct/bus/schedule/bkln/b004cur.pdf target=_blank><font color=#0000FF><b><u>B4</u></b></font></a> </font>buses stop at <b>86 St</b> [N] and <b>Avenue X</b> [F]</font>.
+[F] trains provide connecting service between <b>Avenue X</b> and <b>Stillwell Av</b>.
+
+&#149; Transfer between trains and buses at <b>86 St</b> and <b>Avenue X</b>.
+
+<b>Note:</b> No <b>[D]</b> service between Bay Pkwy and Stillwell Av during this time.
+
+<table class=plannedworkTableStyle  border=1 cellspacing=1 cellpadding=5 rules=none frame=box><td>  [ad]  <td><font size=1>This service change affects one or more ADA accessible stations. Please call 511 for help with planningyour trip. If you are deaf or hard of hearing, use your preferred relay service provider or the free 711 relay.  </font></table>
+<b>
+</div></b>
+                
+              </text>
+      <Date>02/21/2015</Date>
+      <Time>12:01PM</Time>
+    </line>
+    <line>
+      <name>S</name>
+      <status>GOOD SERVICE</status>
+      <text />
+      <Date></Date>
+      <Time></Time>
+    </line>
+    <line>
+      <name>SIR</name>
+      <status>SERVICE CHANGE</status>
+      <text>
+                    <span class="TitleServiceChange" >Service Change</span>
+                    <span class="DateStyle">
+                     Posted: 02/21/2015 12:02PM
+                    </span>
+                  <P>The following <STRONG>SIR</STRONG> <STRONG>St George</STRONG> to <STRONG>Tottenville</STRONG> trains are cancelled in both directions:</P>
+<P>The <STRONG>6:31</STRONG>, <STRONG>7:36</STRONG>, <STRONG>8:31</STRONG>, <STRONG>9:36</STRONG>, <STRONG>10:31</STRONG>, <STRONG>11:36</STRONG>, <STRONG>12:36</STRONG> and <STRONG>2:31</STRONG> trains have all been cancelled for the day.</P>
+<P>Allow additional travel time. </P>
+                
+              </text>
+      <Date>02/21/2015</Date>
+      <Time>12:02PM</Time>
+    </line>
+  </subway>
+  <bus>
+    <line>
+      <name>B1 - B84</name>
+      <status>PLANNED WORK</status>
+      <text>
+                  <span class="TitlePlannedWork" >Planned Detour</span>
+                  
+                <a class="plannedWorkDetailLink" onclick=ShowHide(89552);>
+<b>B24 and B46/B46 </b>LTD<b> buses detoured from the Entrance on Broadway at Washington Plz Terminal
+</a><div id= 89552 class="plannedWorkDetail" ></b>Until further notice
+
+Due to <i>c</i>onstruction, buses operate as follows:
+
+Via Broadway
+Right on Roebling St into Washington Plaza.
+<b>
+</div></b>
+              
+              
+            
+                  <span class="TitlePlannedWork" >Planned Detour</span>
+                  
+                <a class="plannedWorkDetailLink" onclick=ShowHide(88492);>
+<b>B20 and Q24 - Northbound/Westbound buses detoured from Van Sinderen Av at Broadway<br clear= left>Junction due to construction - No stops missed
+</a><div id= 88492 class="plannedWorkDetail" ></b>Until further notice
+
+<b><i><a style="cursor:pointer; text-decoration:underline;" onclick=ShowHide(884920);>Show Reroute Details</a></i></b>
+<div id="884920"; style="display:none;">Via Jamaica Av
+Into Fulton St
+Right on Eastern Pkwy
+Left on Broadway then regular route</div>
+
+<b>Reminder</b>:  <a href=http://web.mta.info/nyct/bus/schedule/bkln/b020cur.pdf target=_blank><font color=#0000FF><b><u>B20</u></b></font></a> buses do not operate overnight.
+<b>
+</div></b>
+              
+              
+            </text>
+      <Date>02/21/2015</Date>
+      <Time> 1:23PM</Time>
+    </line>
+    <line>
+      <name>B100 - B103</name>
+      <status>GOOD SERVICE</status>
+      <text />
+      <Date></Date>
+      <Time></Time>
+    </line>
+    <line>
+      <name>BM1 - BM5</name>
+      <status>GOOD SERVICE</status>
+      <text />
+      <Date></Date>
+      <Time></Time>
+    </line>
+    <line>
+      <name>BX1 - BX55</name>
+      <status>GOOD SERVICE</status>
+      <text />
+      <Date></Date>
+      <Time></Time>
+    </line>
+    <line>
+      <name>BXM1 - BXM18</name>
+      <status>GOOD SERVICE</status>
+      <text />
+      <Date></Date>
+      <Time></Time>
+    </line>
+    <line>
+      <name>M1 - M116</name>
+      <status>DELAYS</status>
+      <text>
+                  <span class="TitleDelay">Delays</span>
+                  <span class="DateStyle">
+                   Posted: 02/21/2015 12:14PM
+                  </span>
+                  
+                  
+                <P><STRONG>M15</STRONG> and <STRONG>M15 SBS</STRONG> buses are running withÂ delays, due to crane operation on 51 St and 2 Av. </P>
+<P>Allow additional travel time.</P>
+              
+              
+            
+                  <span class="TitleServiceChange" >Service Change</span>
+                  <span class="DateStyle">
+                   Posted: 02/21/2015 12:03PM
+                  </span>
+                  
+                  
+                <P><STRONG>M101, M102</STRONG> and <STRONG>M103</STRONG> buses areÂ detoured, due to a vehicular accident at 57 St and Lexington Av.</P>
+<P>Detour is as follows:</P>
+<P><STRONG>Southbound:</STRONG> Via Lexington Av, left on 57 St, right on 2 Av, right on 42 St, left on Lexington Av and regular route .</P>
+<P>Corresponding bus stops will be made along 2 Av.</P>
+<P>Allow additional travel time</P>
+              
+              
+            
+                  <span class="TitlePlannedWork" >Planned Detour</span>
+                  
+                <a class="plannedWorkDetailLink" onclick=ShowHide(92023);>
+<b>M50 - Westbound buses rerouted from 49 St between 10 Av and 11 Av - No stops missed
+</a><div id= 92023 class="plannedWorkDetail" ></b>8 AM to 6 PM, Sat and Sun, Feb 21 - 22
+
+Due to a crane operation, buses may experience delays.
+
+<b><i><a style="cursor:pointer; text-decoration:underline;" onclick=ShowHide(920230);>Show Reroute Details</a></i></b>
+<div id="920230"; style="display:none;">Via 49 St
+Right on 10 Av
+Left on 51 St
+Left on 11 Av
+Right on 49 then regular route</div>
+<b>     </b><a href=http://bustime.mta.info/ target=_blank><img height=30px src=http://web.mta.info/nyct/images/Bus_Time_logo.png></a><b> 
+</div></b>
+              
+              
+            
+                  <span class="TitlePlannedWork" >Planned Detour</span>
+                  
+                <a class="plannedWorkDetailLink" onclick=ShowHide(92022);>
+<b>M3 - Southbound buses rerouted from Manhattan Av between 125 St and 116 St 
+</a><div id= 92022 class="plannedWorkDetail" ></b>8 AM to 5 PM, Sat <i>and</i> Sun, Feb 21 - 22
+
+Due to a crane operation, buses run via <b>Frederick Douglass Blvd </b>making corresponding stops.
+
+<b><i><a style="cursor:pointer; text-decoration:underline;" onclick=ShowHide(920220);>Show Reroute Details</a></i></b>
+<div id="920220"; style="display:none;">Via St Nicholas Av
+Left on 125 St
+Right on Frederick Douglass Blvd
+Right on 116 St
+Left on Manhattan Av then regular route</div>
+<b>
+</div></b>
+              
+              
+            
+                  <span class="TitlePlannedWork" >Planned Detour</span>
+                  
+                <a class="plannedWorkDetailLink" onclick=ShowHide(91196);>
+<b>M21 - Eastbound stop on Houston St between Chrystie St and Forsyth St temporarily relocated
+</a><div id= 91196 class="plannedWorkDetail" ></b>Until further notice
+
+Due to construction, please follow directional signage to nearby temporary stop.
+<b>
+</div></b>
+              
+              
+            </text>
+      <Date>02/21/2015</Date>
+      <Time>12:14PM</Time>
+    </line>
+    <line>
+      <name>Q1 - Q113</name>
+      <status>PLANNED WORK</status>
+      <text>
+                  <span class="TitlePlannedWork" >Planned Detour</span>
+                  
+                <a class="plannedWorkDetailLink" onclick=ShowHide(92128);>
+<b>Q66 buses rerouted in Flushing 
+</a><div id= 92128 class="plannedWorkDetail" ></b>10 AM to 2:30 PM, Saturday, Feb 21
+
+Due to the Flushing Lunar New Year Parade, the Roosevelt Av at Main St stop will be made <b>on Northern Blvd</b> at Main St in both directions.
+
+<b><i><a style="cursor:pointer; text-decoration:underline;" onclick=ShowHide(921280);>Show Reroute Details</a></i></b>
+<div id="921280"; style="display:none;"><b>Eastbound
+</b>Via Northern Blvd to Main St (First/Last stop)
+
+<b>Westbound
+</b>From Northern Blvd at Main St
+Left on Linden Pl to Northern Blvd then regular route</div>
+<b>
+</div></b>
+              
+              
+            
+                  <span class="TitlePlannedWork" >Planned Detour</span>
+                  
+                <a class="plannedWorkDetailLink" onclick=ShowHide(92139);>
+<b>Q65 buses rerouted in Flushing 
+</a><div id= 92139 class="plannedWorkDetail" ></b>10 AM to 2:30 PM, Saturday, Feb 21
+
+Due to the Flushing Lunar New Year Parade:
+
+<b>Northbound</b>:
+Sanford Av at Bowne St stop will be made <b>on Bowne St </b>at Sanford Av
+Kissena Blvd at Sanford Av and Main St between 41 Av and Northern Blvd stops will be made <b>on</b> <b>Bowne St
+
+Southbound</b>:
+Main St at Northern Blvd stop will be made <b>on Northern Blvd</b> between Prince St and Main St
+Main St at Roosevelt Av and Kissena Blvd at 41 Av stops will be made <b>on Bowne St
+</b>Sanford Av at Kissena Blvd stops will be made <b>on Bowne St</b> at Sanford Av
+
+<b><i><a style="cursor:pointer; text-decoration:underline;" onclick=ShowHide(921390);>Show Reroute Details</a></i></b>
+<div id="921390"; style="display:none;"><b>Northbound
+</b>Via Bowne St 
+Left on Northern Blvd then regular route
+
+<b>Southbound
+</b>Via Northern Blvd
+Right on Bowne St then regular route</div>
+<b>
+</div></b>
+              
+              
+            
+                  <span class="TitlePlannedWork" >Planned Detour</span>
+                  
+                <a class="plannedWorkDetailLink" onclick=ShowHide(91828);>
+<b>Q58/Q58 </b>LTD<b> - No service between College Pt Blvd/ Maple Av and 41 Rd/Main St
+</a><div id= 91828 class="plannedWorkDetail" ></b>8 AM to 2:30 PM, Saturday, Feb 21
+
+Due to the Flushing Lunar New Year Parade, buses operate between Ridgewood/Myrtle-Wyckoff Avs and College Pt Blvd/Maple Av.
+<b>
+</div></b>
+              
+              
+            
+                  <span class="TitlePlannedWork" >Planned Detour</span>
+                  
+                <a class="plannedWorkDetailLink" onclick=ShowHide(92132);>
+<b>Q48 buses rerouted in Flushing 
+</a><div id= 92132 class="plannedWorkDetail" ></b>8 AM to 2:30 PM, Saturday, Feb 21
+
+Due to the Flushing Lunar New Year Parade, the Roosevelt Av at College Point Blvd and Main St stops will be made <b>on Roosevelt Av </b>at Janet Pl in both directions.
+
+<b><i><a style="cursor:pointer; text-decoration:underline;" onclick=ShowHide(921320);>Show Reroute Details</a></i></b>
+<div id="921320"; style="display:none;"><b>Eastbound
+</b>Via Roosevelt Av
+Left on College Point Blvd to Roosevelt Av at Janet Pl (First/Last stop)
+
+<b>Westbound
+</b>From Roosevelt Av at Janet Pl then regular route</div>
+<b>
+</div></b>
+              
+              
+            
+                  <span class="TitlePlannedWork" >Planned Detour</span>
+                  
+                <a class="plannedWorkDetailLink" onclick=ShowHide(92018);>
+<b>Q32 - Westbound buses rerouted from 60 St between Lexington Av and 5 Av
+</a><div id= 92018 class="plannedWorkDetail" ></b>8 AM - 2 PM, Sat <i>and</i> Sun, Feb 21 - 22
+
+Due to a crane operation, buses run via <b>57 St</b> making corresponding stops.
+
+<b><i><a style="cursor:pointer; text-decoration:underline;" onclick=ShowHide(920180);>Show Reroute Details</a></i></b>
+<div id="920180"; style="display:none;">Via 60 St
+Left on Lexington Av
+Right on 57 St
+Left on 5 Av then regular route</div>
+<b>
+</div></b>
+              
+              
+            
+                  <span class="TitlePlannedWork" >Planned Detour</span>
+                  
+                <a class="plannedWorkDetailLink" onclick=ShowHide(92121);>
+<b>Q28 buses rerouted in Flushing
+</a><div id= 92121 class="plannedWorkDetail" ></b>8 AM to 2:30 PM, Saturday, Feb 21
+
+Due to the Flushing Lunar New Year Parade, the 39 Av at Lippman Plaza stop will be made <b>on Northern Blvd </b>at Union St in both directions.
+
+<b><i><a style="cursor:pointer; text-decoration:underline;" onclick=ShowHide(921210);>Show Reroute Details</a></i></b>
+<div id="921210"; style="display:none;"><b>Eastbound
+</b>Via Union St
+Right on 35 Av
+Right on Parsons Blvd
+Left on Northern Blvd then regular route 
+
+<b>Westbound
+</b>Via Northern Blvd to temporary stand at Union St</div>
+<b>
+</div></b>
+              
+              
+            
+                  <span class="TitlePlannedWork" >Planned Detour</span>
+                  
+                <a class="plannedWorkDetailLink" onclick=ShowHide(91864);>
+<b>Q27 buses rerouted in Flushing
+</a><div id= 91864 class="plannedWorkDetail" ></b>10 AM to 2:30 PM, Saturday, Feb 21
+
+Due to the Flushing Lunar New Year Parade, all missed stops will be made <b>on Bowne St </b>at 41 Av.
+
+<b><i><a style="cursor:pointer; text-decoration:underline;" onclick=ShowHide(918640);>Show Reroute Details</a></i></b>
+<div id="918640"; style="display:none;"><b>Northbound
+</b>Via 46 Av
+Right on Parsons Blvd
+Left on Sanford Av
+Right on Bowne St and take stand on 41 Av
+
+<b>Southbound
+</b>Via Bowne St
+Right on 41 Av
+Right on Parsons Blvd
+Left on 46 Av then regular route</div>
+<b>
+</div></b>
+              
+              
+            
+                  <span class="TitlePlannedWork" >Planned Detour</span>
+                  
+                <a class="plannedWorkDetailLink" onclick=ShowHide(91327);>
+<b>Q27 stops on 216 St between 48 Av and 56 Av temporarily closed
+</a><div id= 91327 class="plannedWorkDetail" ></b>Until further notice
+
+Due to construction, please use temporary stops on <b>Springfield Blvd </b>in both directions.
+
+<b><i><a style="cursor:pointer; text-decoration:underline;" onclick=ShowHide(913270);>Show Reroute Details</a></i></b>
+<div id="913270"; style="display:none;"><b>Northbound
+</b>Via 56 Av
+Right on Springfield Blvd
+Left on 48 Av then regular route
+
+<b>Southbound
+</b>Via 48 Av
+Right on Springfield Av
+Left on 56 Av then regular route</div>
+<b>
+</div></b>
+              
+              
+            
+                  <span class="TitlePlannedWork" >Planned Detour</span>
+                  
+                <a class="plannedWorkDetailLink" onclick=ShowHide(92142);>
+<b>Q25 buses rerouted in Flushing
+</a><div id= 92142 class="plannedWorkDetail" ></b>10 AM to 2:30 PM, Saturday, Feb 21
+
+Due to the Flushing Lunar New Year Parade:
+
+<b>Northbound</b>:  Kissena Blvd between Booth Memorial Av and Main St between 41 Av and Northern Blvd stops will be made <b>on College Point Blvd</b>.
+
+<b>Southbound</b>:
+Main St at Northern Blvd stop will be made <b>on Northern Blvd</b> at Main St
+Main St at Roosevelt Av stop will be made <b>on College Point Blvd
+</b>Kissena Blvd between Main St and Maple Av will be made <b>on Kissena Blvd</b> at Franklin Av
+
+<b><i><a style="cursor:pointer; text-decoration:underline;" onclick=ShowHide(921420);>Show Reroute Details</a></i></b>
+<div id="921420"; style="display:none;"><b>Northbound
+</b>Via Kissena Blvd
+Left on Booth Memorial Av
+Right on College Point Blvd
+Right on Northern Blvd then regular route
+
+<b>Southbound
+</b>Via Linden Blvd 
+Right on Northern Blvd
+Left on College Point Blvd 
+Left on Maple Av
+Right on Kissena Blvd then regular route</div>
+<b>
+</div></b>
+              
+              
+            
+                  <span class="TitlePlannedWork" >Planned Detour</span>
+                  
+                <a class="plannedWorkDetailLink" onclick=ShowHide(92133);>
+<b>Q20/Q20A and Q44 </b>LTD<b> buses rerouted in Flushing
+</a><div id= 92133 class="plannedWorkDetail" ></b>10 AM to 2:30 PM, Saturday, Feb 21
+
+Due to the Flushing Lunar New Year Parade:
+
+<b>Northbound</b>: 
+Main St between Cherry Av and Northern Blvd stops will be made <b>on College Point Blvd</b>.
+
+<b>Southbound</b>:  
+Main St at Northern Blvd stop will be made <b>on Northern Blvd</b> between Main St and Prince St.  
+Main St between 38 Av and Sanford Av stops will be made <b>on Main St</b> at Maple St.
+
+<b><i><a style="cursor:pointer; text-decoration:underline;" onclick=ShowHide(921330);>Show Reroute Details</a></i></b>
+<div id="921330"; style="display:none;"><b>Northbound
+</b>Via Main St
+Left on Dahlia Av
+Right on Crommelin St
+Left on Blossom Av
+Right on College Point Blvd
+Right on Northern Blvd then regular route
+
+<b>Southbound
+</b>Via Northern Blvd
+Left on College Point Blvd
+Left on Blossom Av
+Right on Crommelin St
+Left on Dahlia Av
+Right on Main St then regular route</div>
+<b>
+</div></b>
+              
+              
+            
+                  <span class="TitlePlannedWork" >Planned Detour</span>
+                  
+                <a class="plannedWorkDetailLink" onclick=ShowHide(91959);>
+<b>Q2 buses rerouted from Hollis Av between 217 St and Springfield Blvd
+</a><div id= 91959 class="plannedWorkDetail" ></b>Until further notice
+
+Due to road work, buses run via <b>110 Av</b> making corresponding stops in both directions.
+
+</font><b><i><a style="cursor:pointer; text-decoration:underline;" onclick=ShowHide(919590);>Show Reroute Details</a></i></b>
+<div id="919590"; style="display:none;"><b>Eastbound
+</b>Via Hollis Av
+Right on 212 St
+Left on 110 Av
+Left on Springfield Av then regular route
+
+<b>Westbound
+</b>Via Springfield Blvd
+Right on 110 Av
+Right on 212 St
+Left on Hollis Av then regular route</div>
+<b>
+</div></b>
+              
+              
+            
+                  <span class="TitlePlannedWork" >Planned Detour</span>
+                  
+                <a class="plannedWorkDetailLink" onclick=ShowHide(92126);>
+<b>Q19 buses rerouted in Flushing
+</a><div id= 92126 class="plannedWorkDetail" ></b>10 AM to 2:30 PM, Saturday, Feb 21
+
+Due to the Flushing Lunar New Year Parade, the Roosevelt Av at Main St stop will be made <b>on Northern Blvd</b> at Main St in both directions.
+
+<b><i><a style="cursor:pointer; text-decoration:underline;" onclick=ShowHide(921260);>Show Reroute Details</a></i></b>
+<div id="921260"; style="display:none;"><b>Eastbound
+</b>Via Northern Blvd to Main St (First/Last stop)
+
+<b>Westbound
+</b>From Northern Blvd at Main St
+Left on Linden Pl to Northern Blvd then regular route</div>
+<b>
+</div></b>
+              
+              
+            
+                  <span class="TitlePlannedWork" >Planned Detour</span>
+                  
+                <a class="plannedWorkDetailLink" onclick=ShowHide(91839);>
+<b>Q17 buses rerouted in Flushing 
+</a><div id= 91839 class="plannedWorkDetail" ></b>10 AM to 2:30 PM, Saturday, Feb 21
+
+Due to the Flushing Lunar New Year Parade, all missed stops will be made <b>on Bowne St </b>at 41 Av.
+
+<b><i><a style="cursor:pointer; text-decoration:underline;" onclick=ShowHide(918390);>Show Reroute Details</a></i></b>
+<div id="918390"; style="display:none;"><b>Northbound
+</b>Via Kissena Blvd
+Right on Holly Av
+Left on Parsons Blvd
+Left on Sanford Av
+Right on Bowne St and take stand at 41 Av
+
+<b>Southbound
+</b>Via Bowne St
+Left on 41 Av
+Right on Parsons Blvd
+Right on Holly Av
+Left on Kissena Blvd then regular route</div> 
+<b>
+</div></b>
+              
+              
+            
+                  <span class="TitlePlannedWork" >Planned Detour</span>
+                  
+                <a class="plannedWorkDetailLink" onclick=ShowHide(92118);>
+<b>Q16 buses rerouted in Flushing 
+</a><div id= 92118 class="plannedWorkDetail" ></b>8 AM to 2:30 PM, Saturday, Feb 21
+
+Due to the Flushing New Year Parade, the 39 Av at Lippman Plaza stop will be made <b>on Northern Blvd </b>at Union St in both directions.
+
+<b><i><a style="cursor:pointer; text-decoration:underline;" onclick=ShowHide(921180);>Show Reroute Details</a></i></b>
+<div id="921180"; style="display:none;"><b>Eastbound
+</b>Right on Union St then regular route 
+
+<b>Westbound
+</b>Via Union St
+Left on 35 Av
+Right on Parsons Blvd
+Right on Northern Blvd to temporary stand at Union St</div>
+<b>
+</div></b>
+              
+              
+            
+                  <span class="TitlePlannedWork" >Planned Detour</span>
+                  
+                <a class="plannedWorkDetailLink" onclick=ShowHide(92106);>
+<b>Q15/Q15A buses rerouted in Flushing
+</a><div id= 92106 class="plannedWorkDetail" ></b>8 AM to 2:30 PM, Saturday, Feb 21
+
+Due to the Flushing Lunar New Year Parade, Roosevelt Av between Bowne St and Main St stops will be made <b>on Bowne St </b>at Roosevelt Av in both directions.
+
+<b><i><a style="cursor:pointer; text-decoration:underline;" onclick=ShowHide(921060);>Show Reroute Details</a></i></b>
+<div id="921060"; style="display:none;"><b>Northbound
+</b>Via Bowne St
+Right on Northern Blvd
+Right on Parsons Blvd
+Left on 41 Av then regular route 
+
+<b>Southbound
+</b>Via 41 Av
+Right on Bowne St to temporary stand at Roosevelt Av</div>
+<b>
+</div></b>
+              
+              
+            
+                  <span class="TitlePlannedWork" >Planned Detour</span>
+                  
+                <a class="plannedWorkDetailLink" onclick=ShowHide(92044);>
+<b>Q13 buses rerouted in Flushing
+</a><div id= 92044 class="plannedWorkDetail" ></b>8 AM to 2:30 PM, Saturday, Feb 21
+
+Due to the Flushing Lunar New Year Parade, the 39 Av at Lippman Plaza stop will be made <b>on Northern Blvd</b> at Union St.
+
+<b><i><a style="cursor:pointer; text-decoration:underline;" onclick=ShowHide(920440);>Show Reroute Details</a></i></b>
+<div id="920440"; style="display:none;"><b>Eastbound
+</b>Right on Union St
+Right on 35 Av
+Right on Parsons Blvd
+Left on Northern Blvd then regular route 
+
+<b>Westbound
+</b>Via Northern Blvd to temporary stand on Union St</div>
+<b>
+</div></b>
+              
+              
+            
+                  <span class="TitlePlannedWork" >Planned Detour</span>
+                  
+                <a class="plannedWorkDetailLink" onclick=ShowHide(92035);>
+<b>Q12 buses rerouted in Flushing
+</a><div id= 92035 class="plannedWorkDetail" ></b>8 AM to 2:30 PM, Saturday, Feb 21
+
+Due to the Flushing Lunar New Year Parade:
+
+<b>Eastbound</b>:  Stops on Roosevelt Av at Main St and Union St will be made <b>on Bowne St</b> at Roosevelt Av.
+
+<b>Westbound</b>: Stops on Bowne St at Sanford Av and Roosevelt Av between Bowne St and Main St will be made <b>on Bowne St </b>at Roosevelt Av. 
+
+<b><i><a style="cursor:pointer; text-decoration:underline;" onclick=ShowHide(920350);>Show Reroute Details</a></i></b>
+<div id="920350"; style="display:none;"><b>Eastbound
+</b>Via Bowne St
+Right on Northern Blvd
+Right on Parsons Blvd
+Left on Sanford Av then regular route 
+
+<b>Westbound
+</b>Via Sanford Av
+Right on Bowne St to temporary stand at Roosevelt Av</div>
+<b>
+</div></b>
+              
+              
+            
+                  <span class="TitlePlannedWork" >Planned Detour</span>
+                  
+                <a class="plannedWorkDetailLink" onclick=ShowHide(88492);>
+<b>B20 and Q24 - Northbound/Westbound buses detoured from Van Sinderen Av at Broadway<br clear= left>Junction due to construction - No stops missed
+</a><div id= 88492 class="plannedWorkDetail" ></b>Until further notice
+
+<b><i><a style="cursor:pointer; text-decoration:underline;" onclick=ShowHide(884920);>Show Reroute Details</a></i></b>
+<div id="884920"; style="display:none;">Via Jamaica Av
+Into Fulton St
+Right on Eastern Pkwy
+Left on Broadway then regular route</div>
+
+<b>Reminder</b>:  <a href=http://web.mta.info/nyct/bus/schedule/bkln/b020cur.pdf target=_blank><font color=#0000FF><b><u>B20</u></b></font></a> buses do not operate overnight.
+<b>
+</div></b>
+              
+              
+            </text>
+      <Date>02/21/2015</Date>
+      <Time> 1:23PM</Time>
+    </line>
+    <line>
+      <name>QM1 - QM25</name>
+      <status>GOOD SERVICE</status>
+      <text />
+      <Date></Date>
+      <Time></Time>
+    </line>
+    <line>
+      <name>S40 - S98</name>
+      <status>GOOD SERVICE</status>
+      <text />
+      <Date></Date>
+      <Time></Time>
+    </line>
+    <line>
+      <name>x1 - x68</name>
+      <status>GOOD SERVICE</status>
+      <text />
+      <Date></Date>
+      <Time></Time>
+    </line>
+  </bus>
+  <BT>
+    <line>
+      <name>Bronx-Whitestone</name>
+      <status>GOOD SERVICE</status>
+      <text />
+      <Date></Date>
+      <Time></Time>
+    </line>
+    <line>
+      <name>Cross Bay</name>
+      <status>GOOD SERVICE</status>
+      <text />
+      <Date></Date>
+      <Time></Time>
+    </line>
+    <line>
+      <name>Henry Hudson</name>
+      <status>GOOD SERVICE</status>
+      <text />
+      <Date></Date>
+      <Time></Time>
+    </line>
+    <line>
+      <name>Hugh L. Carey</name>
+      <status>GOOD SERVICE</status>
+      <text />
+      <Date></Date>
+      <Time></Time>
+    </line>
+    <line>
+      <name>Marine Parkway</name>
+      <status>GOOD SERVICE</status>
+      <text />
+      <Date></Date>
+      <Time></Time>
+    </line>
+    <line>
+      <name>Queens Midtown</name>
+      <status>GOOD SERVICE</status>
+      <text />
+      <Date></Date>
+      <Time></Time>
+    </line>
+    <line>
+      <name>Robert F. Kennedy</name>
+      <status>GOOD SERVICE</status>
+      <text />
+      <Date></Date>
+      <Time></Time>
+    </line>
+    <line>
+      <name>Throgs Neck</name>
+      <status>GOOD SERVICE</status>
+      <text />
+      <Date></Date>
+      <Time></Time>
+    </line>
+    <line>
+      <name>Verrazano-Narrows</name>
+      <status>GOOD SERVICE</status>
+      <text />
+      <Date></Date>
+      <Time></Time>
+    </line>
+  </BT>
+  <LIRR>
+    <line>
+      <name>Babylon</name>
+      <status>DELAYS</status>
+      <text>
+                    <span class="TitleDelay">Delays</span>
+                    <span class="DateStyle">
+                     Posted: 02/21/2015  1:19PM
+                    </span>
+                  The 12:28PM train from Babylon due Penn at 1:44PM is operating 10 minutes late due to earlier police activity at Rockville Centre.
+                
+              </text>
+      <Date>02/21/2015</Date>
+      <Time> 1:19PM</Time>
+    </line>
+    <line>
+      <name>City Terminal Zone</name>
+      <status>GOOD SERVICE</status>
+      <text />
+      <Date></Date>
+      <Time></Time>
+    </line>
+    <line>
+      <name>Far Rockaway</name>
+      <status>GOOD SERVICE</status>
+      <text />
+      <Date></Date>
+      <Time></Time>
+    </line>
+    <line>
+      <name>Hempstead</name>
+      <status>GOOD SERVICE</status>
+      <text />
+      <Date></Date>
+      <Time></Time>
+    </line>
+    <line>
+      <name>Long Beach</name>
+      <status>GOOD SERVICE</status>
+      <text />
+      <Date></Date>
+      <Time></Time>
+    </line>
+    <line>
+      <name>Montauk</name>
+      <status>GOOD SERVICE</status>
+      <text />
+      <Date></Date>
+      <Time></Time>
+    </line>
+    <line>
+      <name>Oyster Bay</name>
+      <status>GOOD SERVICE</status>
+      <text />
+      <Date></Date>
+      <Time></Time>
+    </line>
+    <line>
+      <name>Port Jefferson</name>
+      <status>DELAYS</status>
+      <text>
+                    <span class="TitleDelay">Delays</span>
+                    <span class="DateStyle">
+                     Posted: 02/21/2015  1:26PM
+                    </span>
+                  The 1:03PM train from Huntington due Penn at 2:09PM is operating 12 minutes late due to equipment trouble prior to departure.
+                
+              </text>
+      <Date>02/21/2015</Date>
+      <Time> 1:26PM</Time>
+    </line>
+    <line>
+      <name>Port Washington</name>
+      <status>GOOD SERVICE</status>
+      <text />
+      <Date></Date>
+      <Time></Time>
+    </line>
+    <line>
+      <name>Ronkonkoma</name>
+      <status>GOOD SERVICE</status>
+      <text />
+      <Date></Date>
+      <Time></Time>
+    </line>
+    <line>
+      <name>West Hempstead</name>
+      <status>GOOD SERVICE</status>
+      <text />
+      <Date></Date>
+      <Time></Time>
+    </line>
+  </LIRR>
+  <MetroNorth>
+    <line>
+      <name>Hudson</name>
+      <status>GOOD SERVICE</status>
+      <text />
+      <url />
+      <Date></Date>
+      <Time></Time>
+    </line>
+    <line>
+      <name>Harlem</name>
+      <status>GOOD SERVICE</status>
+      <text />
+      <url />
+      <Date></Date>
+      <Time></Time>
+    </line>
+    <line>
+      <name>Wassaic</name>
+      <status>GOOD SERVICE</status>
+      <text />
+      <url />
+      <Date></Date>
+      <Time></Time>
+    </line>
+    <line>
+      <name>New Haven</name>
+      <status>GOOD SERVICE</status>
+      <text />
+      <url />
+      <Date></Date>
+      <Time></Time>
+    </line>
+    <line>
+      <name>New Canaan</name>
+      <status>GOOD SERVICE</status>
+      <text />
+      <url />
+      <Date></Date>
+      <Time></Time>
+    </line>
+    <line>
+      <name>Danbury</name>
+      <status>GOOD SERVICE</status>
+      <text />
+      <url />
+      <Date></Date>
+      <Time></Time>
+    </line>
+    <line>
+      <name>Waterbury</name>
+      <status>GOOD SERVICE</status>
+      <text />
+      <url />
+      <Date></Date>
+      <Time></Time>
+    </line>
+    <line>
+      <name>Pascack Valley</name>
+      <status>GOOD SERVICE</status>
+      <text />
+      <url />
+      <Date></Date>
+      <Time></Time>
+    </line>
+    <line>
+      <name>Port Jervis</name>
+      <status>GOOD SERVICE</status>
+      <text />
+      <url />
+      <Date></Date>
+      <Time></Time>
+    </line>
+  </MetroNorth>
+</service>
