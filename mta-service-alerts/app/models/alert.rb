@@ -41,13 +41,14 @@ class Alert < ActiveRecord::Base
       {
         name: line.css('name').inner_text,
         status: line.css('status').inner_text,
-        date: "#{date} #{time}"
+        date: "#{date} #{time}",
+        text: self.clean_html_page line
       }
     end
 
     def self.clean_html_page line
       regex = /<\/*br\/*>|<\/*b>|<\/*i>|<\/*strong>|<\/*font.*?>|<\/*u>/
-      clean_html = line.css('text').inner_text.gsub(regex, '')
-      Nokogiri::HTML(clean_html)
+      line.css('text').inner_text.gsub(regex, '')
     end
+
 end
