@@ -4,62 +4,65 @@ class AlertsController < ApplicationController
   # GET /alerts
   # GET /alerts.json
   def index
-    @alerts = Alert.all
+    alerts = Alert.all
+    render json: alerts
   end
 
   # GET /alerts/1
   # GET /alerts/1.json
   def show
+    alert = alert.find_by({id: params[:id]})
+    render json: alert
   end
 
   # GET /alerts/new
-  def new
-    @alert = Alert.new
-  end
+  # def new
+  #   @alert = Alert.new
+  # end
 
   # GET /alerts/1/edit
-  def edit
-  end
+  # def edit
+  # end
 
   # POST /alerts
   # POST /alerts.json
-  def create
-    @alert = Alert.new(alert_params)
+  # def create
+  #   @alert = Alert.new(alert_params)
 
-    respond_to do |format|
-      if @alert.save
-        format.html { redirect_to @alert, notice: 'Alert was successfully created.' }
-        format.json { render :show, status: :created, location: @alert }
-      else
-        format.html { render :new }
-        format.json { render json: @alert.errors, status: :unprocessable_entity }
-      end
-    end
-  end
+  #   respond_to do |format|
+  #     if @alert.save
+  #       format.html { redirect_to @alert, notice: 'Alert was successfully created.' }
+  #       format.json { render :show, status: :created, location: @alert }
+  #     else
+  #       format.html { render :new }
+  #       format.json { render json: @alert.errors, status: :unprocessable_entity }
+  #     end
+  #   end
+  # end
 
   # PATCH/PUT /alerts/1
   # PATCH/PUT /alerts/1.json
-  def update
-    respond_to do |format|
-      if @alert.update(alert_params)
-        format.html { redirect_to @alert, notice: 'Alert was successfully updated.' }
-        format.json { render :show, status: :ok, location: @alert }
-      else
-        format.html { render :edit }
-        format.json { render json: @alert.errors, status: :unprocessable_entity }
-      end
-    end
-  end
+  # def update
+  #   respond_to do |format|
+  #     if @alert.update(alert_params)
+  #       format.html { redirect_to @alert, notice: 'Alert was successfully updated.' }
+  #       format.json { render :show, status: :ok, location: @alert }
+  #     else
+  #       format.html { render :edit }
+  #       format.json { render json: @alert.errors, status: :unprocessable_entity }
+  #     end
+  #   end
+  # end
 
   # DELETE /alerts/1
   # DELETE /alerts/1.json
-  def destroy
-    @alert.destroy
-    respond_to do |format|
-      format.html { redirect_to alerts_url, notice: 'Alert was successfully destroyed.' }
-      format.json { head :no_content }
-    end
-  end
+  # def destroy
+  #   @alert.destroy
+  #   respond_to do |format|
+  #     format.html { redirect_to alerts_url, notice: 'Alert was successfully destroyed.' }
+  #     format.json { head :no_content }
+  #   end
+  # end
 
   private
     # Use callbacks to share common setup or constraints between actions.
