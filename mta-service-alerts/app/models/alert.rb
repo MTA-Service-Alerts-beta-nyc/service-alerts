@@ -11,7 +11,8 @@ class Alert < ActiveRecord::Base
     lines = self.find_lines page
 
     lines.each do |line|
-      puts self.line_data line
+      line_data = self.line_data line
+      self.save_data line_data
     end
   end
 
@@ -19,11 +20,11 @@ class Alert < ActiveRecord::Base
 
     def self.download_page
       # For testing purposes, we get a saved serviceData file.
-      return Nokogiri::HTML(open("../research/2015-02-22-08-42-01.xml"))
+      # return Nokogiri::HTML(open("../research/2015-02-22-08-42-01.xml"))
 
       url = "http://web.mta.info/status/serviceStatus.txt"
       begin
-        # page = Nokogiri::HTML(open(url))
+        page = Nokogiri::HTML(open(url))
       rescue
         puts "Exception #{e}"
         puts "Unable to fetch #{url}"
@@ -46,7 +47,8 @@ class Alert < ActiveRecord::Base
         name: line.css('name').inner_text,
         status: line.css('status').inner_text,
         date: "#{date} #{time}",
-        text: self.clean_html_page line
+        text: self.clean_html_page(line),
+        active: true
       }
     end
 
@@ -54,5 +56,27 @@ class Alert < ActiveRecord::Base
       regex = /<\/*br\/*>|<\/*b>|<\/*i>|<\/*strong>|<\/*font.*?>|<\/*u>/
       line.css('text').inner_text.gsub(regex, '')
     end
+
+    def self.in_database? data
+      line_active_alert = Article.find_by active: true, name: data[:name]
+
+      if self.same_alert line_active_record, data
+
+        # Update the active_until time to current time
+      else
+        self.set_alert_inactive
+      end
+    end
+
+    def self.same_alert record, data
+      line_active_alert[:status] == data[:status] &&
+        line_active_alert[:text] == data[:text]
+    end
+
+    def self.set_alert_inactive alert
+      alert[:active] = false
+      alert.save
+    end
+
 
 end
