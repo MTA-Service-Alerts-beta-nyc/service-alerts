@@ -13,7 +13,8 @@ class Alert < ActiveRecord::Base
     lines.each do |line|
       line_data = self.line_data line
       puts line_data
-      self.update_database line_data
+      current_time = page.css('timestamp').inner_text
+      self.update_database line_data, current_time
     end
   end
 
@@ -39,7 +40,7 @@ class Alert < ActiveRecord::Base
         train_names.include? line.css('name').inner_text
       end
     end
-
+ 
     def self.line_data line
       date = line.css('date').inner_text
       time = line.css('time').inner_text
@@ -47,9 +48,8 @@ class Alert < ActiveRecord::Base
       {
         name: line.css('name').inner_text,
         status: line.css('status').inner_text,
-        date: "#{date} #{time}",
-        text: self.clean_html_page(line),
-        active: true
+        start_time: "#{date} #{time}",
+        text: self.clean_html_page(line)
       }
     end
 
@@ -58,15 +58,15 @@ class Alert < ActiveRecord::Base
       line.css('text').inner_text.gsub(regex, '')
     end
 
-    def self.update_database? data
-      line_active_alert = Article.find_by active: true, name: data[:name]
+    def self.update_database data, current_time
+      line_active_alert = Alert.find_by active: true, name: data[:name]
 
       if self.same_alert line_active_record, data
-
+        self.update_end_time line_active_alert, current_time
         # Update the active_until time to current time
       else
         self.set_alert_inactive
-        self.save_data data
+        self.create_data data
       end
     end
 
@@ -78,6 +78,22 @@ class Alert < ActiveRecord::Base
     def self.set_alert_inactive alert
       alert[:active] = false
       alert.save
+    end
+
+    def self.create_data data
+      alert = Alert.new
+      alert[:name] = data[:name]
+      alert[:status] = data[:status]
+      alert[:start_time] = data[:start_time]
+      alert[:end_time] = data[:start_time]
+      alert[:active] = true
+
+      alert.save
+    end
+
+    def self.update_end_time record, current_time
+      record[:end_time] = current_time
+      record.save
     end
 
 end
