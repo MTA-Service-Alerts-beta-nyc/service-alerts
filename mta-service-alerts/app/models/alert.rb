@@ -14,7 +14,7 @@ class Alert < ActiveRecord::Base
     lines.each do |line|
       line_data = self.line_data line
 
-      unless self.alert_exists? line_data
+      if self.alert_exists? line_data
         puts line_data
         #binding.pry
         current_time = self.convert_time(page.css('timestamp').inner_text)
@@ -26,7 +26,7 @@ class Alert < ActiveRecord::Base
   private
 
     def self.alert_exists? data
-      data[:status] == "GOOD SERVICE"
+      data[:status] != "GOOD SERVICE"
     end
 
     def self.download_page
@@ -60,8 +60,6 @@ class Alert < ActiveRecord::Base
         text: self.clean_html_page(line)
       }
 
-      # binding.pry
-
       unless result[:start_time].blank?
         result[:start_time] = self.convert_time(result[:start_time])
       end
@@ -72,7 +70,7 @@ class Alert < ActiveRecord::Base
     def self.clean_html_page line
       regex = /<\/*br\/*>|<\/*b>|<\/*i>|<\/*strong>|<\/*font.*?>|<\/*u>/
       line.css('text').inner_text.gsub(regex, '').gsub('&nbsp;', '')
-          .gsub('Posted: ', '')
+          .gsub('Posted: ', '').gsub(/\s{2,}/, ' ')
     end
 
     def self.update_database data, current_time
@@ -113,6 +111,7 @@ class Alert < ActiveRecord::Base
       alert[:status] = data[:status]
       alert[:start_time] = data[:start_time]
       alert[:end_time] = data[:start_time]
+      alert[:text] = data[:text]
       alert[:active] = true
 
       alert.save
@@ -127,8 +126,6 @@ class Alert < ActiveRecord::Base
 
       puts '#####################'
       puts "_#{time_string}_"
-      
-
       DateTime.strptime(time_string, "%m/%d/%Y %I:%M%p")
     end
 
