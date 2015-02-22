@@ -15,12 +15,9 @@ class Alert < ActiveRecord::Base
       line_data = self.line_data line
 
       if self.alert_exists? line_data
-        #puts line_data
-        current_time = page.css('timestamp').inner_text
-        puts "As string: #{current_time}"
-        current_time = self.convert_time(current_time)
-        puts "Converted: #{current_time}"
-        #self.update_database line_data, current_time
+        puts line_data
+        current_time = self.convert_time(page.css('timestamp').inner_text)
+        self.update_database line_data, current_time
       end
     end
   end
