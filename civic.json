@@ -1,0 +1,21 @@
+{
+    "thumbnailUrl": "",
+    "status": "In Development",
+    "bornAt" : "#codeacross",
+    "geography": "NYC",
+    "politicalEntity": "MTA",
+    "name": "Mapping MTA Service Alerts",
+    "type" : "Web App",
+    "needs": [
+      {"need": "UI / UX designer"},
+      {"need": "Natural Language Processor"},
+      {"need": "Database experts"}
+    ],
+    "categories" : [
+      {"category": "Public transit"},
+      {"category": "MTA"},
+      {"category": "Mapping"},
+      {"category": "Service alerts"},
+      {"category": "Data Visualization"}
+    ]
+}
