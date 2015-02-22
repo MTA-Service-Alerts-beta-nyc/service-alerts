@@ -54,9 +54,16 @@ function initialize() {
 
 
   // adding the transit later to the map
-  var transitLayer = new google.maps.TransitLayer();
-  transitLayer.setMap(map);
-  //THIS LAYER CANNOT BE STYLED YET! DRAW LINES USING OTHER DATA INSTEAD
+  var mtaRouteLayer = new google.maps.KmlLayer({
+    suppressInfoWindows:true,
+    url: 'http://bearcla.ws/nyc/subway-routes.kml',
+    map:map
+  });
+  // var mtaStationLayer = new google.maps.KmlLayer({
+  //   suppressInfoWindows:true,
+  //   url: 'http://bearcla.ws/nyc/subway-stops2.kml',
+  //   map:map
+  // });
 
 
 }
