@@ -4,11 +4,18 @@ var MTA = MTA || { Models: {}, Collections: {} }; //, Views: {} };
 //Models
 
 MTA.Models.Alert = Backbone.Model.extend({
-
+  // expecting:
+  // lines affected
+  // station if applicable
+  // alert type if applicable 
+  // alert text
 }); //MTA Model Alert
 
 MTA.Models.Station = Backbone.Model.extend({
-
+  // expecting:
+  // name
+  // lines associated witht he specific station
+  // longitude and lattitude
 }); //MTA Model Alert
 
 //Collections
