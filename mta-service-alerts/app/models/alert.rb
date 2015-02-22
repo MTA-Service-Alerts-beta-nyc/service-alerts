@@ -31,7 +31,11 @@ class Alert < ActiveRecord::Base
     end
 
     def self.find_lines page
-      page.css('line')
+      train_names = ["123", "456", "7", "ACE", "BDFM", "G", "JZ", "L", "NQR", "S", "SIR"]
+      all_lines = page.css('line')
+      all_lines.select do |line|
+        train_names.include? line.css('name').inner_text
+      end
     end
 
     def self.line_data line
