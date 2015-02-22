@@ -15,10 +15,12 @@ class Alert < ActiveRecord::Base
       line_data = self.line_data line
 
       if self.alert_exists? line_data
-        puts line_data
-        #binding.pry
-        current_time = self.convert_time(page.css('timestamp').inner_text)
-        self.update_database line_data, current_time
+        #puts line_data
+        current_time = page.css('timestamp').inner_text
+        puts "As string: #{current_time}"
+        current_time = self.convert_time(current_time)
+        puts "Converted: #{current_time}"
+        #self.update_database line_data, current_time
       end
     end
   end
@@ -119,14 +121,16 @@ class Alert < ActiveRecord::Base
 
     def self.convert_time time_string
       time_string = time_string.gsub(/\s{2,}/, ' ')
-                               .gsub(" PM","PM")
-                               .gsub(" AM","AM")
                                .gsub(/0(\d\/)/, '\1')
-                               .gsub(/ (\d:)/, ' 0\1')
+                               .gsub(/\s+(\d:)/, ' 0\1')
 
-      puts '#####################'
-      puts "_#{time_string}_"
-      DateTime.strptime(time_string, "%m/%d/%Y %I:%M%p")
+      # AM/PM seems to be broken for strptime
+      # This is a hack around that
+      if time_string.match('AM')
+        DateTime.strptime(time_string, "%m/%d/%Y %l:%M")
+      elsif time_string.match('PM')
+        DateTime.strptime(time_string, "%m/%d/%Y %l:%M") + 12.hours
+      end
     end
 
     def self.update_end_time record, current_time
