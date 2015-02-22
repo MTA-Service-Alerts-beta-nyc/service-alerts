@@ -65,6 +65,7 @@ class Alert < ActiveRecord::Base
         # Update the active_until time to current time
       else
         self.set_alert_inactive
+        self.save_data data
       end
     end
 
@@ -78,5 +79,12 @@ class Alert < ActiveRecord::Base
       alert.save
     end
 
+    def self.save_data data
+      alert = Alert.new
+      alert[:name] = data[:name]
+      alert[:status] = data[:status]
+      alert[:date] = data[:date]
+      alert.save
+    end
 
 end
