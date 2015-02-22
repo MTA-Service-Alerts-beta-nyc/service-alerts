@@ -12,7 +12,8 @@ class Alert < ActiveRecord::Base
 
     lines.each do |line|
       line_data = self.line_data line
-      self.save_data line_data
+      puts line_data
+      self.update_database line_data
     end
   end
 
@@ -57,7 +58,7 @@ class Alert < ActiveRecord::Base
       line.css('text').inner_text.gsub(regex, '')
     end
 
-    def self.in_database? data
+    def self.update_database? data
       line_active_alert = Article.find_by active: true, name: data[:name]
 
       if self.same_alert line_active_record, data
@@ -76,14 +77,6 @@ class Alert < ActiveRecord::Base
 
     def self.set_alert_inactive alert
       alert[:active] = false
-      alert.save
-    end
-
-    def self.save_data data
-      alert = Alert.new
-      alert[:name] = data[:name]
-      alert[:status] = data[:status]
-      alert[:date] = data[:date]
       alert.save
     end
 
