@@ -2,7 +2,7 @@ function initialize() {
   // define the coodinates to center the map on
   var myLatlng = new google.maps.LatLng(40.7402837,-73.9231385);
   // define a map id
-  var MAP_ID = 'custom_style' //does this matter what it's called?
+  var MAP_ID = 'custom_style'; //does this matter what it's called?
 
   // map settings
   var mapOptions = {
