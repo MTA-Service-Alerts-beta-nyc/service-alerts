@@ -1,5 +1,6 @@
 require 'open-uri'
 require 'date'
+require 'pry'
 
 class Alert < ActiveRecord::Base
 
@@ -15,6 +16,7 @@ class Alert < ActiveRecord::Base
 
       unless self.alert_exists? line_data
         puts line_data
+        #binding.pry
         current_time = self.convert_time(page.css('timestamp').inner_text)
         self.update_database line_data, current_time
       end
@@ -30,7 +32,6 @@ class Alert < ActiveRecord::Base
     def self.download_page
       # For testing purposes, we get a saved serviceData file.
       # return Nokogiri::HTML(open("../research/2015-02-22-08-42-01.xml"))
-
       url = "http://web.mta.info/status/serviceStatus.txt"
       begin
         page = Nokogiri::HTML(open(url))
@@ -128,7 +129,7 @@ class Alert < ActiveRecord::Base
       puts "_#{time_string}_"
       
 
-      DateTime.strptime(time_string, "%-m/%-d/%Y %I:%M%p")
+      DateTime.strptime(time_string, "%m/%d/%Y %I:%M%p")
     end
 
     def self.update_end_time record, current_time
