@@ -18,9 +18,12 @@ class Alert < ActiveRecord::Base
   private
 
     def self.download_page
+      # For testing purposes, we get a saved serviceData file.
+      return Nokogiri::HTML(open("../research/2015-02-22-08-42-01.xml"))
+
       url = "http://web.mta.info/status/serviceStatus.txt"
       begin
-        page = Nokogiri::HTML(open(url))
+        # page = Nokogiri::HTML(open(url))
       rescue
         puts "Exception #{e}"
         puts "Unable to fetch #{url}"
@@ -42,4 +45,9 @@ class Alert < ActiveRecord::Base
       }
     end
 
+    def self.clean_html_page line
+      regex = /<\/*br\/*>|<\/*b>|<\/*i>|<\/*strong>|<\/*font.*?>|<\/*u>/
+      clean_html = line.css('text').inner_text.gsub(regex, '')
+      Nokogiri::HTML(clean_html)
+    end
 end
