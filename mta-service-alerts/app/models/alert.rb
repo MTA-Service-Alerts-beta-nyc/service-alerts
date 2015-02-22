@@ -12,13 +12,20 @@ class Alert < ActiveRecord::Base
 
     lines.each do |line|
       line_data = self.line_data line
-      puts line_data
-      current_time = page.css('timestamp').inner_text
-      self.update_database line_data, current_time
+
+      unless self.alert_exists? line_data
+        puts line_data
+        current_time = self.convert_time(page.css('timestamp').inner_text)
+        self.update_database line_data, current_time
+      end
     end
   end
 
   private
+
+    def self.alert_exists? data
+      data[:status] == "GOOD SERVICE"
+    end
 
     def self.download_page
       # For testing purposes, we get a saved serviceData file.
@@ -45,33 +52,51 @@ class Alert < ActiveRecord::Base
       date = line.css('date').inner_text
       time = line.css('time').inner_text
 
-      {
+      result = {
         name: line.css('name').inner_text,
         status: line.css('status').inner_text,
         start_time: "#{date} #{time}",
         text: self.clean_html_page(line)
       }
+
+      # binding.pry
+
+      unless result[:start_time].blank?
+        result[:start_time] = self.convert_time(result[:start_time])
+      end
+
+      return result
     end
 
     def self.clean_html_page line
       regex = /<\/*br\/*>|<\/*b>|<\/*i>|<\/*strong>|<\/*font.*?>|<\/*u>/
-      line.css('text').inner_text.gsub(regex, '')
+      line.css('text').inner_text.gsub(regex, '').gsub('&nbsp;', '')
+          .gsub('Posted: ', '')
     end
 
     def self.update_database data, current_time
       line_active_alert = Alert.find_by active: true, name: data[:name]
 
-      if self.same_alert line_active_record, data
-        self.update_end_time line_active_alert, current_time
-        # Update the active_until time to current time
-      else
-        self.set_alert_inactive
+      if line_active_alert
+
+        if self.same_alert line_active_alert, data
+          self.update_end_time line_active_alert, current_time
+          # Update the active_until time to current time
+        else
+          self.set_alert_inactive line_active_alert
+          self.create_data data
+        end
+
+      else 
         self.create_data data
       end
+
+
     end
 
-    def self.same_alert record, data
-      line_active_alert[:status] == data[:status] &&
+    def self.same_alert line_active_alert, data
+      # binding.pry
+        line_active_alert[:status] == data[:status] &&
         line_active_alert[:text] == data[:text]
     end
 
@@ -81,6 +106,7 @@ class Alert < ActiveRecord::Base
     end
 
     def self.create_data data
+      # binding.pry
       alert = Alert.new
       alert[:name] = data[:name]
       alert[:status] = data[:status]
@@ -89,6 +115,20 @@ class Alert < ActiveRecord::Base
       alert[:active] = true
 
       alert.save
+    end
+
+    def self.convert_time time_string
+      time_string = time_string.gsub(/\s{2,}/, ' ')
+                               .gsub(" PM","PM")
+                               .gsub(" AM","AM")
+                               .gsub(/0(\d\/)/, '\1')
+                               .gsub(/ (\d:)/, ' 0\1')
+
+      puts '#####################'
+      puts "_#{time_string}_"
+      
+
+      DateTime.strptime(time_string, "%-m/%-d/%Y %I:%M%p")
     end
 
     def self.update_end_time record, current_time
