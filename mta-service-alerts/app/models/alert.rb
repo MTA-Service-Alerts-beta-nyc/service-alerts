@@ -1,5 +1,6 @@
 require 'open-uri'
 require 'date'
+require 'pry'
 
 class Alert < ActiveRecord::Base
 
@@ -30,7 +31,6 @@ class Alert < ActiveRecord::Base
     def self.download_page
       # For testing purposes, we get a saved serviceData file.
       # return Nokogiri::HTML(open("../research/2015-02-22-08-42-01.xml"))
-
       url = "http://web.mta.info/status/serviceStatus.txt"
       begin
         page = Nokogiri::HTML(open(url))
@@ -118,16 +118,16 @@ class Alert < ActiveRecord::Base
 
     def self.convert_time time_string
       time_string = time_string.gsub(/\s{2,}/, ' ')
-                               .gsub(" PM","PM")
-                               .gsub(" AM","AM")
                                .gsub(/0(\d\/)/, '\1')
-                               .gsub(/ (\d:)/, ' 0\1')
+                               .gsub(/\s+(\d:)/, ' 0\1')
 
-      # puts '#####################'
-      # puts "_#{time_string}_"
-
-      # DateTime.strptime(time_string, "%-m/%-d/%Y %I:%M%p")
-      DateTime.now
+      # AM/PM seems to be broken for strptime
+      # This is a hack around that
+      if time_string.match('AM')
+        DateTime.strptime(time_string, "%m/%d/%Y %l:%M")
+      elsif time_string.match('PM')
+        DateTime.strptime(time_string, "%m/%d/%Y %l:%M") + 12.hours
+      end
     end
 
     def self.update_end_time record, current_time
